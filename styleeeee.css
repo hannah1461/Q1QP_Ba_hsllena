@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px; /*no spacing as default*/
+}
+
+.navbar{ /*main navbar format*/
+    display: flex;
+    width: 100%; /*fit to screen*/
+    overflow: hidden;
+    height: fit-content; /*fit content when squished*/
+    flex-wrap: nowrap;
+    background-image: linear-gradient(to right, #ffd6a5, #ffadad, #ffd6a5); /*colour of navbar*/
+}
+
+.logo img{
+    position: relative;
+    width: 50px; /*change logo size*/
+    border: 2px solid #03045e; /*border*/
+    border-radius: 100%; /*makes border a circle*/
+    left: 20px; /*change position of the logo*/
+}
+
+.links{ /*changes the position of the links*/
+    position: relative;
+    left: 17%;
+    top: 2px;
+}
+
+.links p{ /*formats the links decoration*/
+    position: relative;
+    display: inline-flex;
+    color: #fdffb6;
+    font-size: 30px;
+    top: 5px;
+}
+
+.links a{ /*formats the links*/
+    display: inline-flex;
+    background-color: #fdffb6; /*background*/
+    color: #03045e;
+    border: 2px solid #03045e; /*border*/
+    border-radius: 5px;
+    text-wrap: wrap;
+    padding: 10px;
+    text-decoration: none; /*no underline*/
+    transition: color .2s ease-in-out; /*how it hovers and the time of it*/
+    justify-content: center;
+}
+.links a:hover{ /*link hover transition*/
+    color: #fdffb6;
+    box-shadow: inset 200px 0 0 0 #03045e;
+}
+
+.title{ /*title format*/
+    position: relative;
+    color: #03045e;
+    display: inline;
+}
+
+.title h1{ /*title position*/
+    display: inline;
+    position: relative;
+    font-size: 50px; /*large font*/
+    left: 4%; /*change position*/
+    width: fit-content;
+}
+
+.text{ /*text format*/
+    display: inline-flex;
+    position: relative;
+    left: 3.7%;
+    width: 92%;
+    font-family: cute2;
+    color: #03045e;
+}
+
+.text p{ /*text design and size*/
+    background-color: #fadde1;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 313px;
+    line-height: 40px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.footer{ /*main footer format*/
+    height: 9.5vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #ffd6a5, #ffadad, #ffd6a5); /*colour of footer*/
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    border-top: 1px #03045e;
+}
+
+
+.coplnk{ /*copyright format*/
+    color: #03045e;
+    margin-top: 3vh;
+    margin-left: 10vw;
+    font-size: 2vh;
+}
+
+.imglnk{ /*social media icons format*/
+    text-align: right;
+    padding-right: 12vw;
+    margin-bottom: 100px;
+}
+
+.imglnk a:hover{ /*colour of social media icons when you hover*/
+    background-image: linear-gradient(to bottom, #03045e, #ade8f4);
+    transition: 1s;
+}
